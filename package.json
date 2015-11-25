@@ -1,0 +1,17 @@
+{
+  "name": "miercolexsinon",
+  "version": "1.0.0",
+  "description": "Entorno de test para Fizzbuz",
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/.bin/jasmine-node .tests/ --growl --color"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-node": "^1.14.5",
+    "sinon": "^1.17.2",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.2.2"
+  }
+}
