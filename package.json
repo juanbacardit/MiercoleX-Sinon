@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node_modules/.bin/jasmine-node .tests/ --growl --color --autotest"
   },
-  "author": "",
+  "author": "Juan Bacardit",
   "license": "ISC",
   "dependencies": {
     "gulp-jasmine": "^2.2.1",
