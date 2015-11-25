@@ -4,7 +4,7 @@
   "description": "Entorno de test para Fizzbuz",
   "main": "app.js",
   "scripts": {
-    "test": "node_modules/.bin/jasmine-node .tests/ --growl --color"
+    "test": "node_modules/.bin/jasmine-node .tests/ --growl --color --autotest"
   },
   "author": "",
   "license": "ISC",

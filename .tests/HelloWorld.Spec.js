@@ -4,7 +4,6 @@
  var HW = require("../src/HelloWorld.Module");
 
 describe("Hello World", function(){
-	var s  = sinon.stub().returns(1);
 	var sandbox;
 	
 	beforeEach(function () {
@@ -15,11 +14,11 @@ describe("Hello World", function(){
 		sandbox.restore();
 	});
 	
-	it("say hello to everybody",function(){
-		expect(s()).toBe(1);
+	it("first test...",function(){
+		expect(true).toBe(true);
 	});
 	
-	it("is called X times", function(){
+	it("use anonymous spy", function(){
 		var spy  = sinon.spy();
 		spy();
 		assert(spy.calledOnce);
