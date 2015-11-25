@@ -16,6 +16,6 @@ Also, you can execute it on prompt. Inside de main folder execute
 	
 More information about Jasmine a Sinon:
 
-	· [Jasmine.js](http://jasmine.github.io/)
-	· [Sinon.js](http://sinonjs.org)
+* [Jasmine.js](http://jasmine.github.io/)
+* [Sinon.js](http://sinonjs.org)
 	
