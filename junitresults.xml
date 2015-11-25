@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
- <testsuite name="Hello World" timestamp="2015-11-25T16:17:25" hostname="localhost" time="0.008" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+ <testsuite name="Hello World" timestamp="2015-11-25T17:48:09" hostname="localhost" time="0.009" errors="0" tests="4" skipped="0" disabled="0" failures="1">
   <testcase classname="Hello World" name="first test..." time="0.001" />
   <testcase classname="Hello World" name="use anonymous spy" time="0.002" />
   <testcase classname="Hello World" name="say hello message to Luke Skywalker" time="0.003" />
-  <testcase classname="Hello World" name="say Bye message to Luke Skywalker" time="0.001" />
+  <testcase classname="Hello World" name="say Bye message to Luke Skywalker" time="0.001">
+   <failure type="toBe" message="Expected &apos;Bye, Luke&apos; to be &apos;Bye, Luke!!!&apos;."><![CDATA[Error: Expected 'Bye, Luke' to be 'Bye, Luke!!!'.
+    at stack (/Users/juanbacarditbarrera/Documents/SRC/MiercoleX/MiercoleX-Sinon/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1482:17)
+    at buildExpectationResult (/Users/juanbacarditbarrera/Documents/SRC/MiercoleX/MiercoleX-Sinon/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1452:14)
+    at Spec.Env.expectationResultFactory (/Users/juanbacarditbarrera/Documents/SRC/MiercoleX/MiercoleX-Sinon/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:583:18)
+    at Spec.addExpectationResult (/Users/juanbacarditbarrera/Documents/SRC/MiercoleX/MiercoleX-Sinon/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:324:34)
+    at Expectation.addExpectationResult (/Users/juanbacarditbarrera/Documents/SRC/MiercoleX/MiercoleX-Sinon/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:533:21)
+    at Expectation.toBe (/Users/juanbacarditbarrera/Documents/SRC/MiercoleX/MiercoleX-Sinon/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1406:12)
+    at Object.<anonymous> (/Users/juanbacarditbarrera/Documents/SRC/MiercoleX/MiercoleX-Sinon/.tests/HelloWorld.Spec.js:43:33)
+    at attemptSync (/Users/juanbacarditbarrera/Documents/SRC/MiercoleX/MiercoleX-Sinon/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1789:24)
+    at QueueRunner.run (/Users/juanbacarditbarrera/Documents/SRC/MiercoleX/MiercoleX-Sinon/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1777:9)
+    at QueueRunner.execute (/Users/juanbacarditbarrera/Documents/SRC/MiercoleX/MiercoleX-Sinon/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1762:10)]]>
+   </failure>
+  </testcase>
  </testsuite>
 </testsuites>
