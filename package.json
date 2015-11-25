@@ -9,6 +9,7 @@
   "author": "Juan Bacardit",
   "license": "ISC",
   "dependencies": {
+    "gulp": "^3.9.0",
     "gulp-jasmine": "^2.2.1",
     "jasmine-node": "^1.14.5",
     "jasmine-reporters": "^2.0.7",
