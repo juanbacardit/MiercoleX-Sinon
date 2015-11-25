@@ -40,7 +40,7 @@ describe("Hello World", function(){
 		var spy = sandbox
 					.spy(_, "sprintf")
 					.withArgs("Bye, %s","Luke");	
-		expect(hw.SayGoodBye("Luke")).toBe("Bye, Luke");
+		expect(hw.SayGoodBye("Luke")).toBe("Bye, Luke!!!");
 		assert(spy.calledOnce);
 		
 	});

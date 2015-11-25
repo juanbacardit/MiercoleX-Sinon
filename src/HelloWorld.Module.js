@@ -18,6 +18,7 @@ var HW = (function () {
 			return putSomeExclamations(_.sprintf(helloMessage, name));
 		};
 		this.SayGoodBye = function (name) {
+			//return putSomeExclamations(_.sprintf(byeMessage, name));
 			return _.sprintf(byeMessage, name);
 		};
 	};
