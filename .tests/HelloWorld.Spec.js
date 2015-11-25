@@ -30,7 +30,7 @@ describe("Hello World", function(){
 					.spy(_,"sprintf")
 					.withArgs("Hello, %s","Luke");
 						
-		expect(hw.SayHello("Luke")).toBe("Hello, Luke");
+		expect(hw.SayHello("Luke")).toBe("Hello, Luke!!!");
 		assert(spy.calledOnce);
 	});
 	
