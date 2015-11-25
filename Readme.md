@@ -1,9 +1,9 @@
 #To be up and running on VSCode + jasmine + sinon
 
-To get up and running. Clone repository and in terminal/cmd.exe execute:
+To get up and running. Clone repository and execute following on terminal/cmd.exe:
 
-	1. `** npm install **` to download the node_modules
-	2. `** npm test **` to start test runner in watch mode to Spec folder.
+	1. npm install to download the node_modules
+	2. `npm test` to start test runner in watch mode to Spec folder.
 
 Also, you can execute it on prompt. Inside de main folder execute
 
